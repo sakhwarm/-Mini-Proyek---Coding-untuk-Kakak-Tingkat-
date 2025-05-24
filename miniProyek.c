@@ -12,12 +12,12 @@ int main() {
     printf("Program Menghitung Rata-rata Nilai dan Memberi Rekomendasi Music\n");
     printf("================================================================\n");
 
-    printf("Input Jumlah Nilai Yang Akan Hitung *Maksimal 100:"); //user memasukkan jumlah nilai
+    printf("Input Jumlah Nilai Yang Akan di Hitung *Maksimal 100:"); //user memasukkan jumlah nilai
     scanf("%d", &n);
 
     while(n>100){ //proses looping while di mana user tidak bisa menginput nilai lebih dari 100 jika iya maka user akan diminta untuk menginput ulang
         printf("404 Silahkan Coba lagi\n");
-        printf("Input Jumlah Nilai Yang Akan Hitung *Maksimal 100:");
+        printf("Input Jumlah Nilai Yang Akan di Hitung *Maksimal 100:");
         scanf("%d", &n);
     }
 
